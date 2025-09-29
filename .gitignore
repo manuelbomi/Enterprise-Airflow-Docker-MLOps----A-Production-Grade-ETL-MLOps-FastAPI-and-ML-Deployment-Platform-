@@ -1,0 +1,28 @@
+.env
+venv/ 
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Airflow
+logs/
+airflow.db
+*.log
+
+# Docker
+*.pid
+*.sock
+*.tar
+.env
+
+# VS Code or IDE stuff
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
