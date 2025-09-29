@@ -150,10 +150,10 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 - Live at http://localhost:8000
 
 - Sample endpoints:
-- 
-* GET / — Health check
+  
+    - GET / — Health check
 
-* POST /predict — Send JSON input for predictions
+    - POST /predict — Send JSON input for predictions
 
 --- 
 
