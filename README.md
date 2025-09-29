@@ -145,7 +145,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
 - FastAPI reads this for real-time predictions
 
-### FastAPI Inference API  📡 
+### FastAPI Inference API  
 
 - Live at http://localhost:8000
 
@@ -159,6 +159,21 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
       curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json" \
       -d '{"x": 0.85}'        
       ```
+
+
+### CI/CD Pipeline 🔐
+
+- GitHub Actions workflow in .github/workflows/ci.yml
+
+- Runs on PR and push:
+  
+      - DAG validation
+
+      - Linting
+
+      - Unit tests for ML and API
+
+- Ready to extend with deployment hooks
     
 
 
