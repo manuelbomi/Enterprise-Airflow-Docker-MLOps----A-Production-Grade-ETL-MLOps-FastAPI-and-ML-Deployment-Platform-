@@ -186,7 +186,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
       
 ```ruby
-git clone https://github.com/your-username/enterprise-airflow-docker-mlops.git
+git clone https://github.com/manuelbomi/Enterprise-Airflow-Docker-MLOps----A-Production-Grade-ETL-MLOps-FastAPI-and-ML-Deployment-Platform-/tree/main
 cd enterprise-airflow-docker-mlops
 
 ```
