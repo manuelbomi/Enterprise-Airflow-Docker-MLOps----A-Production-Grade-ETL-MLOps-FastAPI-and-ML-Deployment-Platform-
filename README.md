@@ -211,6 +211,8 @@ docker compose up
 
 <ins>FastAPI Server</ins>: http://localhost:8000
 
+
+
 ### 3. Run Your First DAG  3️⃣ 
 
     - Go to Airflow UI: http://localhost:8080
@@ -220,8 +222,8 @@ docker compose up
     - Trigger DAG manually or wait for the scheduler
 
 
-#### FastAPI Endpoint Details    🌐 
 
+#### FastAPI Endpoint Details    🌐 
 
 
 | Method | Route      | Description                                                  |
