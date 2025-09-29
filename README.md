@@ -211,6 +211,25 @@ docker compose up
 
 <ins>FastAPI Server</ins>: http://localhost:8000
 
+### 3. Run Your First DAG  3️⃣ 
+
+    - Go to Airflow UI: http://localhost:8080
+    
+    - Unpause mlops_pipeline_taskflow_emm_oye_v3
+
+    - Trigger DAG manually or wait for the scheduler
+
+
+#### FastAPI Endpoint Details    🌐 
+
+
+
+| Method | Route      | Description                                                  |
+|--------|------------|--------------------------------------------------------------|
+| GET    | `/`        | Health check                                                 |
+| POST   | `/predict` | Accepts JSON like `{"x": 0.5}` and returns model prediction  |
+
+
 
 
 
