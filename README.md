@@ -82,5 +82,26 @@ enterprise-airflow-docker-mlops/
 
 
 ```
-
 ---
+
+## Key Features ✅
+
+ - TaskFlow API: Simplifies DAG writing using Python-native functions and decorators
+
+ - ETL Pipelines: Easily build data engineering workflows with Airflow
+
+-  ML Pipelines: End-to-end training, validation, and registration with MLflow
+
+- MLOps Support: Baseline validation, model versioning, monitoring, and registry
+
+- XCom Communication: Task-to-task data passing using native Airflow constructs
+
+-  FastAPI Serving: Serve models via REST endpoint (http://localhost:8000)
+
+-  CI/CD with GitHub Actions: DAG validation, linting, testing on push/PR
+
+- Docker-based Orchestration: Easy spin-up of Airflow, Scheduler, UI, and FastAPI
+
+- Production-Ready Hooks: Deployment logic, model monitoring stubs, custom registry
+
+- Pluggable Architecture: Easily extendable via plugins, sensors, hooks
