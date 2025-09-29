@@ -18,4 +18,26 @@ Designed with enterprise use cases in mind, this project showcases how to:
 
 * Whether your team is building AI/ML pipelines, automating data workflows, or deploying models in enterprise production environments, this project provides a battle-tested starting point that is extensible, containerized, and CI/CD-ready.
 
+--- 
+
+## Tech Stack  🧰 
+
+- Airflow (TaskFlow API) – Workflow orchestration, ETL, ML pipelines
+
+- FastAPI – High-performance model serving
+
+- MLflow – Model tracking, registry, and metrics logging
+
+- Scikit-learn – Training regression models
+
+- Pandas/Numpy – Data transformation
+
+- Docker + Docker Compose – Containerized orchestration of services
+
+- GitHub Actions (CI/CD) – Continuous Integration & DAG validation
+
+- XCom – Task-to-task communication in Airflow
+
+- Production-grade design – Model registry, validation, deployment, monitoring hooks
+
 
