@@ -158,6 +158,9 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
       ```ruby
       curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json" \
      -d '{"x": 0.85}'
+
+        
+      ```
     
 
 
