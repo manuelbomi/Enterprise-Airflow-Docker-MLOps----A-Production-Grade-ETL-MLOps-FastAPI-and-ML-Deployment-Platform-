@@ -209,7 +209,7 @@ docker compose up
 
 <ins>Airflow UI</ins>: http://localhost:8080
 
-       <ins>FastAPI Server</ins>: http://localhost:8000
+<ins>FastAPI Server</ins>: http://localhost:8000
 
 
 
