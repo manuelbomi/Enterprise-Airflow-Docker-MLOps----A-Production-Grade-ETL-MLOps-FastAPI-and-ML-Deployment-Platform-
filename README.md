@@ -163,7 +163,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
 ### CI/CD Pipeline 🔐
 
-- GitHub Actions workflow in .github/workflows/xxx.yml
+- GitHub Actions workflow in .github/workflows/ci.yml
 
 - Runs on PR and push:
   
@@ -234,13 +234,55 @@ docker compose up
 
 ### 4. Running Tests
 
-# Run unit tests
+#### Run unit tests
 
 
 ```ruby
 pytest test/
 
 ```
+
+### 5.GitHub Actions (CI/CD)  ✅ 
+
+* CI/CD workflow automatically:
+
+    - Validates all DAGs
+
+    - Runs unit tests
+
+    -  Lints code (expandable)
+
+    -  Blocks merging broken DAGs
+
+* File: .github/workflows/ci.yml
+
+---
+
+## Extending the Platform   📦 
+
+* You can use this project as a template to build:
+
+     - Production-grade data pipelines
+
+     - MLOps workflows with real monitoring
+
+     - Automated ML retraining & deployment
+
+     - Data validation + data drift detection
+
+     - Full ML/ETL lifecycle orchestration
+ 
+ ---
+
+## Notes  📌 
+
+    - Models are saved in /tmp/production_model/model.pkl (shared with FastAPI)
+
+    - MLflow runs are saved locally at /tmp/mlruns
+
+    - Model validation uses MSE vs a BASELINE_MSE
+
+    - All DAGs are Pythonic, modular, and reusable
 
 
 
