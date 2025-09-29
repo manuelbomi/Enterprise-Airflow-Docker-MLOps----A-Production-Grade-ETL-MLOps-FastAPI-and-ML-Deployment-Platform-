@@ -182,7 +182,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
 ## How to Deploy for Your Enterprise Application
 
-### Clone the Repo  🔐
+### 1. Clone the Repo  🔐
 
       
 ```ruby
@@ -190,6 +190,27 @@ git clone https://github.com/manuelbomi/Enterprise-Airflow-Docker-MLOps----A-Pro
 cd enterprise-airflow-docker-mlops
 
 ```
+
+### 2. Build & Run with Docker Compose  2️⃣
+
+####  Build custom images
+
+```ruby
+docker compose build
+```
+
+#### Spin up the full stack: Airflow + FastAPI
+
+```ruby
+docker compose up
+```
+
+#### Visit  📌 :  
+
+      - <ins>Airflow UI</ins>: http://localhost:8080
+
+      - <ins>FastAPI Server</ins>: http://localhost:8000
+
 
 
 
