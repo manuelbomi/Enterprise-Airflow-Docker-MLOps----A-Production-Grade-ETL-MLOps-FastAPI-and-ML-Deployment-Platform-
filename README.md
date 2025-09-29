@@ -232,6 +232,18 @@ docker compose up
 | POST   | `/predict` | Accepts JSON like `{"x": 0.5}` and returns model prediction  |
 
 
+### 4. Running Tests
+
+# Run unit tests
+
+
+```ruby
+pytest test/
+
+```
+
+
+
 
 
 
