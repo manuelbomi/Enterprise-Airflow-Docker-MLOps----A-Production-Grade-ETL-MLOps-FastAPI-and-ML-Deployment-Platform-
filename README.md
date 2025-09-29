@@ -284,7 +284,7 @@ pytest test/
 
      - All DAGs are Pythonic, modular, and reusable
 
-     - Improvements are also welcome (submit a PR <ins>or</ins> clone and redeploy after citing this repo)
+     - Improvements are also welcome (submit a PR or clone and redeploy after citing this repo)
 
 ---
 
