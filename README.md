@@ -40,4 +40,8 @@ Designed with enterprise use cases in mind, this project showcases how to:
 
 - Production-grade design – Model registry, validation, deployment, monitoring hooks
 
+---
+
+## Project Structure  📁 
+
 
