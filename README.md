@@ -163,7 +163,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
 ### CI/CD Pipeline 🔐
 
-- GitHub Actions workflow in .github/workflows/ci.yml
+- GitHub Actions workflow in .github/workflows/xxx.yml
 
 - Runs on PR and push:
   
@@ -179,6 +179,18 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
 
 --- 
+
+## How to Deploy for Your Enterprise Application
+
+### Clone the Repo  🔐
+
+      
+```ruby
+git clone https://github.com/your-username/enterprise-airflow-docker-mlops.git
+cd enterprise-airflow-docker-mlops
+
+```
+
 
 
 
