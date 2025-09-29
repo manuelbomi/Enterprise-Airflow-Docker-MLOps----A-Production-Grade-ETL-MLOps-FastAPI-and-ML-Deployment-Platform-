@@ -276,13 +276,21 @@ pytest test/
 
 ## Notes  📌 
 
-    - Models are saved in /tmp/production_model/model.pkl (shared with FastAPI)
+     - Models are saved in /tmp/production_model/model.pkl (shared with FastAPI)
 
-    - MLflow runs are saved locally at /tmp/mlruns
+     - MLflow runs are saved locally at /tmp/mlruns
 
-    - Model validation uses MSE vs a BASELINE_MSE
+     - Model validation uses MSE vs a BASELINE_MSE
 
-    - All DAGs are Pythonic, modular, and reusable
+     - All DAGs are Pythonic, modular, and reusable
+
+     - Improvements are also welcome (submit a PR <ins>or</ins> clone and redeploy after citing this repo)
+
+---
+
+## License
+
+MIT – Use freely in your enterprise environment!
 
 
 
