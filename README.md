@@ -45,3 +45,42 @@ Designed with enterprise use cases in mind, this project showcases how to:
 ## Project Structure  📁 
 
 
+```ruby
+enterprise-airflow-docker-mlops/
+│
+├── dags/                        # Airflow DAGs (various examples)
+│   ├── mlops_pipeline_taskflow.py
+│   ├── ml_pipeline_with_taskflow_api.py
+│   ├── data_engineering_etl_with_taskflow_api.py
+│   ├── data_engineering_etl_pipeline.py
+│   ├── dag_with_taskflow_api.py
+│   ├── ml_pipeline_with_traditional_dag.py
+│   ├── dags_with_catchup_and_backfill.py
+│   └── xcom_dag.py
+│
+├── fastapi_app/
+│   ├── fastapi_app.py           # Model inference API
+│   └── Dockerfile               # Optional: Standalone FastAPI Dockerfile
+│
+├── .github/workflows/
+│   └── ci.yml                   # DAG validation, test automation
+│
+├── config/                      # (Optional) Airflow/ML configs
+├── logs/                        # Airflow logs
+├── models/                      # Persisted production models (served by FastAPI)
+├── plugins/                     # Custom plugins, sensors, operators
+├── project_snapshots/          # Snapshots of data/models
+├── test/                        # Unit tests (DAGs, FastAPI, ML)
+│   ├── test_dags.py
+│   ├── test_fastapi.py
+│   └── test_model.py
+│
+├── .gitignore
+├── docker-compose.yaml          # Compose file for running the full system
+├── Dockerfile.airflow           # Custom Airflow image
+└── README.md                    # You are currently here! Note that I did not include it in the original repo structure
+
+
+```
+
+---
