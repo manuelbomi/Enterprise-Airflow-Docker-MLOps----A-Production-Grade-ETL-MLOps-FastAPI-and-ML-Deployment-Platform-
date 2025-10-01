@@ -78,7 +78,7 @@ enterprise-airflow-docker-mlops/
 ├── .gitignore
 ├── docker-compose.yaml          # Compose file for running the full system
 ├── Dockerfile.airflow           # Custom Airflow image
-└── README.md                    # You are currently here! Note that I did not include it in the original repo structure
+└── README.md                    # You are currently here! 
 
 
 ```
