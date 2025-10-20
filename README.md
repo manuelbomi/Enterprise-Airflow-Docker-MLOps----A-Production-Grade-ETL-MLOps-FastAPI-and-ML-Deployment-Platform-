@@ -20,7 +20,7 @@ Designed with enterprise use cases in mind, this project showcases how to:
 
 --- 
 
-## Tech Stack  🧰 
+## Tech Stack  
 
 - Airflow (TaskFlow API) – Workflow orchestration, ETL, ML pipelines
 
@@ -42,7 +42,7 @@ Designed with enterprise use cases in mind, this project showcases how to:
 
 ---
 
-## Project Structure  📁 
+## Project Structure  
 
 
 ```ruby
@@ -84,7 +84,7 @@ enterprise-airflow-docker-mlops/
 ```
 ---
 
-## Key Features ✅
+## Key Features 
 
  - TaskFlow API: Simplifies DAG writing using Python-native functions and decorators
 
@@ -113,7 +113,7 @@ enterprise-airflow-docker-mlops/
 
 Use this project as a blueprint for building real-world, enterprise-grade pipelines:
 
-### Data Engineering & ETL 🔁 
+### Data Engineering & ETL  
 
 - Build extract-transform-load (ETL) workflows using Airflow DAGs
 
@@ -121,7 +121,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
 - Backfill historical data using Airflow's catchup feature
 
-### Machine Learning Pipelines  🧠 
+### Machine Learning Pipelines  
 
 - Train and validate ML models (e.g., Linear Regression)
 
@@ -129,7 +129,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
 - Register and version models
 
-### MLOps – End-to-End Lifecycle 🔐
+### MLOps – End-to-End Lifecycle 
 
 - Validate model performance with production baseline (auto-fails DAG if worse)
 
@@ -139,7 +139,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
 - Stub in for model monitoring and drift detection
 
-### Model Deployment  🚀
+### Model Deployment  
 
 - Automatically deploy latest validated model to /models/model.pkl
 
@@ -161,7 +161,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
       ```
 
 
-### CI/CD Pipeline 🔐
+### CI/CD Pipeline 
 
 - GitHub Actions workflow in .github/workflows/ci.yml
 
@@ -182,7 +182,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
 ## How to Deploy for Your Enterprise Application
 
-### 1. Clone the Repo  🔐
+### 1. Clone the Repo  
 
       
 ```ruby
@@ -191,7 +191,7 @@ cd enterprise-airflow-docker-mlops
 
 ```
 
-### 2. Build & Run with Docker Compose  2️⃣
+### 2. Build & Run with Docker Compose️
 
 ####  Build custom images
 
@@ -205,7 +205,7 @@ docker compose build
 docker compose up
 ```
 
-#### Visit  📌 :  
+#### Visit  :  
 
 <ins>Airflow UI</ins>: http://localhost:8080
 
@@ -213,7 +213,7 @@ docker compose up
 
 
 
-### 3. Run Your First DAG  3️⃣ 
+### 3. Run Your First DAG  
 
     - Go to Airflow UI: http://localhost:8080
     
@@ -223,7 +223,7 @@ docker compose up
 
 
 
-#### FastAPI Endpoint Details    🌐 
+#### FastAPI Endpoint Details    
 
 
 | Method | Route      | Description                                                  |
@@ -242,7 +242,7 @@ pytest test/
 
 ```
 
-### 5.GitHub Actions (CI/CD)  ✅ 
+### 5.GitHub Actions (CI/CD)  
 
 * CI/CD workflow automatically:
 
@@ -258,7 +258,7 @@ pytest test/
 
 ---
 
-## Extending the Platform   📦 
+## Extending the Platform   
 
 * You can use this project as a template to build:
 
@@ -274,7 +274,7 @@ pytest test/
  
  ---
 
-## Notes  📌 
+## Notes  
 
      - Models are saved in /tmp/production_model/model.pkl (shared with FastAPI)
 
