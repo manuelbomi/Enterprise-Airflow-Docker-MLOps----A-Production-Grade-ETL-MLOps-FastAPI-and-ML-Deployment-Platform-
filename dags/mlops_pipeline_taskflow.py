@@ -7,16 +7,6 @@
 # - Deployment Hook	Copies model to /tmp/production_model/model.pkl (for FastAPI use)
 # - Monitoring	Stub for drift detection (can expand later)
 
-
-# This module provides mlops using the fast and modern taskflow api method. 
-# The FastAPI deployment is available at fastapi.py
-# MLflow Tracking	Logs model + metrics to local URI (/tmp/mlruns)
-# This module also provides: 
-# - Validation Check	Fails the DAG if model performance is worse than baseline
-# - Registry Logic	Simulated by saving models to /tmp/model_registry
-# - Deployment Hook	Copies model to /tmp/production_model/model.pkl (for FastAPI use)
-# - Monitoring	Stub for drift detection (can expand later)
-
 from datetime import datetime
 from airflow.decorators import dag, task
 import pandas as pd
