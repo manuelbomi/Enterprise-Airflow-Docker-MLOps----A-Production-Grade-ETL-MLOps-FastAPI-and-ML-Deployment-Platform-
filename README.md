@@ -165,7 +165,7 @@ Use this project as a blueprint for building real-world, enterprise-grade pipeli
 
 - GitHub Actions workflow in .github/workflows/ci.yml
 
-- Runs on PR and push:
+- Runs on PR (Pull Request) and push:
   
       - DAG validation
 
